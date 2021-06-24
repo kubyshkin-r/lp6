@@ -157,3 +157,130 @@ h1{
     letter-spacing: 0em;
     color: #999999;
 }
+
+.bg-body{
+    background-color: #F7654A;
+    margin-top: 123px;
+}
+.block-contact{
+    display: grid;
+    grid-template-columns: 1fr 175px;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+.block-contact-h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.block-contact-p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    padding-top: 6px;
+}
+.block-button{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding-top: 43px;
+}
+.zapros{
+    background-color: #fff;
+    width: 175px;
+    height: 49px;
+    border: none;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-image: url(images/mail2.png);
+    background-repeat: no-repeat;
+    background-position: 30px 18px;
+    padding-left: 34px;
+}
+.affair{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.affair__block{
+    background-color: #F7F7F7;
+    width: 350px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 59px 80px;
+}
+.affair__h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 26px;
+
+}
+.affair__p{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 20px;
+}
+.affair__img{
+    background-image: url(images/building.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    margin: auto;
+}
+.body-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.body-images__block{
+    width: 100%;
+}
+
+.questions__h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+details{
+    max-width: 730px;
+}
+summary{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #F7654A;
+    margin-bottom: 40px;
+}
+details p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #999999;
+}
