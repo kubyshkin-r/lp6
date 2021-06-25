@@ -255,7 +255,9 @@ h1{
 .body-images__block{
     width: 100%;
 }
-
+.questions{
+    margin-top: 259px;
+}
 .questions__h2{
     font-size: 36px;
     font-weight: 500;
@@ -263,10 +265,11 @@ h1{
     letter-spacing: 0em;
     text-align: center;
     text-transform: uppercase;
-
+    padding-bottom: 50px;
 }
 details{
     max-width: 730px;
+    margin-bottom: 34px;
 }
 summary{
     font-size: 24px;
@@ -274,7 +277,7 @@ summary{
     line-height: 36px;
     letter-spacing: 0em;
     color: #F7654A;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 details p{
     font-family: Open Sans;
@@ -283,4 +286,164 @@ details p{
     line-height: 22px;
     letter-spacing: 0em;
     color: #999999;
+    margin-top: 22px;
+}
+.partners{
+    background-color: #404149;
+    padding: 100px 0;
+    margin-top: 143px;
+}
+.partners-g{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 64px;
+    grid-row-gap: 50px;
+}
+.parthers__h2{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.parthers__img{
+    width: 170px;
+    height: 61px;
+    background-image: url(images/berksho.png);
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 64px;
+    padding-bottom: 21px;
+}
+.reviews__h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reviews-block__wrapper{
+    background-color: #F7F7F7;
+    padding: 0px 31px 33px;
+}
+.reviews-block__hr{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 142px;
+    letter-spacing: 0em;
+    color: #F7654A;
+    margin: -3px 0 -60px -2px;
+}
+.reviews-block__p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #999999;
+}
+.reviews-block__name{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    padding-top: 30px;
+}
+.reviews-block__name>span{
+    color: #F7654A;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 47px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.contact__h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contact__1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #999999;
+    margin: 7px 0 18px;
+}
+.contact__2{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.contact__mail{
+    color: #F7654A;
+}
+.contact__i{
+    width: 100%;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contact__img1{
+    background-image: url(images/adr.png);
+}
+.contact__img2{
+    background-image: url(images/tel.png);
+}
+.contact__img3{
+    background-image: url(images/time.png);
+}
+.contact__img4{
+    background-image: url(images/mail.png);
+}
+.footer{
+    background-color: #404149;
+}
+.stc{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+.csy{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #fff;
+}
+.footer-c{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 0 29px;
 }
