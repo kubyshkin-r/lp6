@@ -130,7 +130,7 @@ h1{
 }
 .block-progects__img{
     height: 380px;
-    width: 350px;
+    width: 100%;
     background-image: url(images/Rectangle3.jpg);
 }
 .block-progects__delimiter{
@@ -217,7 +217,7 @@ h1{
 }
 .affair__block{
     background-color: #F7F7F7;
-    width: 350px;
+    max-width: 350px;
     height: 250px;
     box-sizing: border-box;
     padding: 59px 80px;
